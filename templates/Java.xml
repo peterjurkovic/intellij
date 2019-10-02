@@ -1,0 +1,41 @@
+<templateSet group="Java">
+  <template name="log" value="private final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(getClass());" description="SFL4J" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="paramsrunner" value="@org.junit.runner.RunWith(junitparams.JUnitParamsRunner.class)" description="@RunWith(JUnitParamsRunner.class)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="false" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="at" value="org.assertj.core.api.Assertions.assertThat($END$)" description="Assertions.assertThat()" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sysout" value="System.out.println($END$)" description="System.out.println()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="setup" value="@org.junit.Before&#10;public void setup(){&#10;    $END$&#10;}" description="Junit setup method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="mockito" value="@org.junit.runner.RunWith(org.mockito.junit.MockitoJUnitRunner.class)" description="@RunWith(MockitoJUnitRunner.class)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+</templateSet>
