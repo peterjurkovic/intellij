@@ -118,7 +118,7 @@
           <IdeaActionID>FindUsages</IdeaActionID>
           <ShortCut>'Alt+F7'</ShortCut>
           <Description>Find Usages</Description>
-          <Count>61</Count>
+          <Count>63</Count>
         </Item>
       </Statistic>
       <Statistic Action="Force Step Into">
@@ -134,7 +134,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>GoTo</Description>
-          <Count>617</Count>
+          <Count>619</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
