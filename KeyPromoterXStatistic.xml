@@ -198,7 +198,7 @@
           <IdeaActionID>OpenModuleSettings</IdeaActionID>
           <ShortCut>'F4'</ShortCut>
           <Description>Open Module Settings</Description>
-          <Count>36</Count>
+          <Count>38</Count>
         </Item>
       </Statistic>
       <Statistic Action="Paste">
@@ -262,7 +262,7 @@
           <IdeaActionID>ExternalSystem.RefreshAllProjects</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+F12'</ShortCut>
           <Description>Refresh all Gradle projects</Description>
-          <Count>32</Count>
+          <Count>33</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rename...">
@@ -1166,7 +1166,7 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'Alt+F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>30</Count>
+          <Count>31</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
