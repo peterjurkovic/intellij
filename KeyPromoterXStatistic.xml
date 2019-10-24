@@ -262,7 +262,7 @@
           <IdeaActionID>ExternalSystem.RefreshAllProjects</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+F12'</ShortCut>
           <Description>Refresh all Gradle projects</Description>
-          <Count>33</Count>
+          <Count>34</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rename...">
@@ -334,7 +334,7 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'Application.main()'</Description>
-          <Count>20</Count>
+          <Count>21</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'ApplicationCal....main()'">
@@ -910,7 +910,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'Application'</Description>
-          <Count>40</Count>
+          <Count>41</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'BillingRequestHandlerTest (1)'">
