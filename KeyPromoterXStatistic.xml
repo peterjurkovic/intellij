@@ -953,6 +953,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'CachingChatappAccountClientTest.findTest_cacheEntryShouldExpireAfterExpiryTIme'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'CachingChatappAccountClientTest.findTest_cacheEntryShouldExpireAfterExpiryTIme'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'DEBUG [run]'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
