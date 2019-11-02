@@ -6,7 +6,7 @@
           <IdeaActionID>SonarLint.AnalyzeFiles</IdeaActionID>
           <ShortCut>'Ctrl+Shift+S'</ShortCut>
           <Description>Analyze with SonarLint</Description>
-          <Count>24</Count>
+          <Count>29</Count>
         </Item>
       </Statistic>
       <Statistic Action="Build Project">
@@ -23,6 +23,14 @@
           <ShortCut>'Ctrl+F4'</ShortCut>
           <Description>Close</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Collapse All">
+        <Item>
+          <IdeaActionID>ExternalSystem.CollapseAll</IdeaActionID>
+          <ShortCut>'Ctrl+NumPad -' or 'Ctrl+Minus'</ShortCut>
+          <Description>Collapse All</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Compare with Branch...">
@@ -46,7 +54,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
           <Description>Copy</Description>
-          <Count>185</Count>
+          <Count>207</Count>
         </Item>
       </Statistic>
       <Statistic Action="Cut">
@@ -102,7 +110,15 @@
           <IdeaActionID>EvaluateExpression</IdeaActionID>
           <ShortCut>'Alt+F8'</ShortCut>
           <Description>Evaluate Expression...</Description>
-          <Count>31</Count>
+          <Count>32</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Expand All">
+        <Item>
+          <IdeaActionID>ExternalSystem.ExpandAll</IdeaActionID>
+          <ShortCut>'Ctrl+NumPad +' or 'Ctrl+='</ShortCut>
+          <Description>Expand All</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Favorites">
@@ -134,7 +150,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>GoTo</Description>
-          <Count>634</Count>
+          <Count>755</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -174,7 +190,7 @@
           <IdeaActionID>ExtractMethod</IdeaActionID>
           <ShortCut>'Ctrl+Alt+M'</ShortCut>
           <Description>Method...</Description>
-          <Count>6</Count>
+          <Count>7</Count>
         </Item>
       </Statistic>
       <Statistic Action="Move To Opposite Group">
@@ -190,7 +206,7 @@
           <IdeaActionID>Move</IdeaActionID>
           <ShortCut>'F6'</ShortCut>
           <Description>Move...</Description>
-          <Count>8</Count>
+          <Count>9</Count>
         </Item>
       </Statistic>
       <Statistic Action="Open Module Settings">
@@ -214,7 +230,7 @@
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
           <ShortCut>'Alt+1'</ShortCut>
           <Description>Project</Description>
-          <Count>15</Count>
+          <Count>16</Count>
         </Item>
       </Statistic>
       <Statistic Action="Push...">
@@ -262,7 +278,7 @@
           <IdeaActionID>ExternalSystem.RefreshAllProjects</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+F12'</ShortCut>
           <Description>Refresh all Gradle projects</Description>
-          <Count>37</Count>
+          <Count>60</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rename...">
@@ -270,7 +286,7 @@
           <IdeaActionID>RenameElement</IdeaActionID>
           <ShortCut>'Shift+F6' or 'Alt+Shift+R'</ShortCut>
           <Description>Rename...</Description>
-          <Count>116</Count>
+          <Count>143</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'ConfigLoader'">
@@ -294,7 +310,7 @@
           <IdeaActionID>Resume</IdeaActionID>
           <ShortCut>'F9'</ShortCut>
           <Description>Resume Program</Description>
-          <Count>137</Count>
+          <Count>147</Count>
         </Item>
       </Statistic>
       <Statistic Action="Revert...">
@@ -447,6 +463,14 @@
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'E2ETest'</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'IntraAuthWebClientExchangeFunctionTest.…ExchangeFunction_shouldUseCachedJwtToken'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'IntraAuthWebClientExchangeFunctionTest.…ExchangeFunction_shouldUseCachedJwtToken'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'KTableKafkaStr....main()'">
@@ -878,7 +902,7 @@
           <IdeaActionID>StepInto</IdeaActionID>
           <ShortCut>'F7'</ShortCut>
           <Description>Step Into</Description>
-          <Count>135</Count>
+          <Count>137</Count>
         </Item>
       </Statistic>
       <Statistic Action="Step Out">
@@ -894,7 +918,7 @@
           <IdeaActionID>StepOver</IdeaActionID>
           <ShortCut>'F8'</ShortCut>
           <Description>Step Over</Description>
-          <Count>122</Count>
+          <Count>166</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop ':chatapp-service:run'">
@@ -902,7 +926,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop ':chatapp-service:run'</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'ApiKeyDeserializerTest.testApiDeserialization_shouldDeserialize'">
@@ -929,6 +953,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'CachingChatappAccountClientTest.findTest_cacheEntryShouldExpireAfterExpiryTIme'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'CachingChatappAccountClientTest.findTest_cacheEntryShouldExpireAfterExpiryTIme'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'DEBUG [run]'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -945,6 +977,14 @@
           <Count>18</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'DefaultChatappAccountsClientTest.testFind_ifIoErrorOccurr_shouldRetry'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'DefaultChatappAccountsClientTest.testFind_ifIoErrorOccurr_shouldRetry'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'DemoApplication'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -959,6 +999,22 @@
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'E2ETest.mo_whatsappClientTemporallyUnavailable_secondAttemptOK'</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'IntraAuthWebClientExchangeFunctionTest'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'IntraAuthWebClientExchangeFunctionTest'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'IntraAuthWebClientExchangeFunctionTest.testExchangeFunction'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'IntraAuthWebClientExchangeFunctionTest.testExchangeFunction'</Description>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'KTableKafkaStream'">
@@ -1150,7 +1206,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop...</Description>
-          <Count>63</Count>
+          <Count>65</Count>
         </Item>
       </Statistic>
       <Statistic Action="Structure">
@@ -1174,7 +1230,7 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'Alt+F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>31</Count>
+          <Count>32</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
@@ -1182,7 +1238,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>166</Count>
+          <Count>183</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
@@ -1238,7 +1294,7 @@
           <IdeaActionID>ViewBreakpoints</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F8'</ShortCut>
           <Description>View Breakpoints...</Description>
-          <Count>5</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
     </option>
