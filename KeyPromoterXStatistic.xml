@@ -150,7 +150,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>GoTo</Description>
-          <Count>766</Count>
+          <Count>767</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -1254,6 +1254,14 @@
           <IdeaActionID>$Undo</IdeaActionID>
           <ShortCut>'Ctrl+Z' or 'Alt+Backspace'</ShortCut>
           <Description>Undo Deleting class com.nexmo.chata...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Undo Moving class com.nexmo.chatapp...">
+        <Item>
+          <IdeaActionID>$Undo</IdeaActionID>
+          <ShortCut>'Ctrl+Z' or 'Alt+Backspace'</ShortCut>
+          <Description>Undo Moving class com.nexmo.chatapp...</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
