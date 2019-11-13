@@ -1313,6 +1313,14 @@
           <Count>8</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'viber-connector [bootJar]'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'viber-connector [bootJar]'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'viber-connector [bootRun] CHATAPPKEY'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
