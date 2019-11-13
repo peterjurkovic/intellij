@@ -174,7 +174,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>GoTo</Description>
-          <Count>965</Count>
+          <Count>968</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -510,6 +510,14 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'IntraAuthWebClientExchangeFunctionTest.…ExchangeFunction_shouldUseCachedJwtToken'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'KEY viber-connector [bootRun]'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'KEY viber-connector [bootRun]'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
