@@ -174,7 +174,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>GoTo</Description>
-          <Count>1039</Count>
+          <Count>1041</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -302,7 +302,7 @@
           <IdeaActionID>ExternalSystem.RefreshAllProjects</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+F12'</ShortCut>
           <Description>Refresh all Gradle projects</Description>
-          <Count>77</Count>
+          <Count>78</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rename...">
