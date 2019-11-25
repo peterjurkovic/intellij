@@ -833,6 +833,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'health_whatsapp-manager [bootRun]'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'health_whatsapp-manager [bootRun]'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'internalErroTest()'">
         <Item>
           <IdeaActionID>RunClass</IdeaActionID>
@@ -1367,6 +1375,14 @@
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'chatapp:chatapp-service [run]'</Description>
           <Count>8</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'health_whatsapp-manager [bootRun]'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'health_whatsapp-manager [bootRun]'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'viber-connector [bootJar]'">
