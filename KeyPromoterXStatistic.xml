@@ -302,7 +302,7 @@
           <IdeaActionID>ExternalSystem.RefreshAllProjects</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+F12'</ShortCut>
           <Description>Refresh all Gradle projects</Description>
-          <Count>80</Count>
+          <Count>81</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rename...">
@@ -1302,6 +1302,14 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'VsmMessageTypeResolverTest.testApply_ifOneWayAndContainsImgCaptionTxtAction_shouldResultTo108'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'chatapp-accounts-client-webflux [test]'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'chatapp-accounts-client-webflux [test]'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
