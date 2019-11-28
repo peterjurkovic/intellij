@@ -6,7 +6,7 @@
           <IdeaActionID>SonarLint.AnalyzeFiles</IdeaActionID>
           <ShortCut>'Ctrl+Shift+S'</ShortCut>
           <Description>Analyze with SonarLint</Description>
-          <Count>37</Count>
+          <Count>38</Count>
         </Item>
       </Statistic>
       <Statistic Action="Build Project">
@@ -38,7 +38,7 @@
           <IdeaActionID>Git.CompareWithBranch</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+C'</ShortCut>
           <Description>Compare with Branch...</Description>
-          <Count>88</Count>
+          <Count>89</Count>
         </Item>
       </Statistic>
       <Statistic Action="Constant...">
@@ -134,7 +134,7 @@
           <IdeaActionID>EvaluateExpression</IdeaActionID>
           <ShortCut>'Alt+F8'</ShortCut>
           <Description>Evaluate Expression...</Description>
-          <Count>38</Count>
+          <Count>39</Count>
         </Item>
       </Statistic>
       <Statistic Action="Expand All">
@@ -174,7 +174,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>GoTo</Description>
-          <Count>1082</Count>
+          <Count>1084</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -334,7 +334,7 @@
           <IdeaActionID>Resume</IdeaActionID>
           <ShortCut>'F9'</ShortCut>
           <Description>Resume Program</Description>
-          <Count>162</Count>
+          <Count>163</Count>
         </Item>
       </Statistic>
       <Statistic Action="Revert...">
@@ -494,7 +494,7 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'E2ETest'</Description>
-          <Count>5</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'E2ETest.test'">
@@ -977,6 +977,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'testVsmErrorCode_i...()'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'testVsmErrorCode_i...()'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'viber-connector [bootRun] CHATAPPKEY'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
@@ -1159,6 +1167,14 @@
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'E2ETest.test'</Description>
           <Count>6</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'E2ETest.testVsmErrorCode_ifIUnknownErrorCode_shouldBeRejected'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'E2ETest.testVsmErrorCode_ifIUnknownErrorCode_shouldBeRejected'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'IntraAuthWebClientExchangeFunctionTest'">
@@ -1502,7 +1518,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>219</Count>
+          <Count>220</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
