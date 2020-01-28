@@ -54,7 +54,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
           <Description>Copy</Description>
-          <Count>312</Count>
+          <Count>315</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Value">
@@ -222,7 +222,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>GoTo</Description>
-          <Count>1651</Count>
+          <Count>1652</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -1895,6 +1895,22 @@
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'WhatsappClientTest.test'</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'aws-sqs [jacocoTestReport]'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'aws-sqs [jacocoTestReport]'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'aws-sqs [test]'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'aws-sqs [test]'</Description>
+          <Count>7</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'chatapp-accounts-client-webflux [test]'">
