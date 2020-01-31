@@ -46,7 +46,7 @@
           <IdeaActionID>IntroduceConstant</IdeaActionID>
           <ShortCut>'Ctrl+Alt+C'</ShortCut>
           <Description>Constant...</Description>
-          <Count>2</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy">
@@ -54,7 +54,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
           <Description>Copy</Description>
-          <Count>317</Count>
+          <Count>319</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Value">
@@ -2190,7 +2190,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>296</Count>
+          <Count>297</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
