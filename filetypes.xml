@@ -4,6 +4,7 @@
       <mapping pattern="ConfigLoader" type="Groovy" />
       <mapping ext="jenkinsfile" type="Groovy" />
       <mapping pattern=".terraform-version" type="PLAIN_TEXT" />
+      <mapping pattern="aurora-global-secondary" type="PLAIN_TEXT" />
       <mapping ext="erb" type="PLAIN_TEXT" />
       <mapping ext="jenkins" type="PLAIN_TEXT" />
       <mapping ext="nomand" type="PLAIN_TEXT" />
