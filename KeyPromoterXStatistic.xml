@@ -222,7 +222,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>GoTo</Description>
-          <Count>1733</Count>
+          <Count>1736</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -303,6 +303,14 @@
           <ShortCut>'Alt+1'</ShortCut>
           <Description>Project</Description>
           <Count>24</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Pull...">
+        <Item>
+          <IdeaActionID>Git.Pull</IdeaActionID>
+          <ShortCut>'Shift+P'</ShortCut>
+          <Description>Pull...</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Push...">
