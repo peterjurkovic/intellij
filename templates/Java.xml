@@ -38,4 +38,18 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
+  <template name="controller" value="@org.springframework.stereotype.RestController&#10;static class MyController {&#10;&#9;&#10;&#9;MyController(){&#10;&#9;&#9;&#10;&#9;}&#10;&#10;&#9;@org.springframework.web.bind.annotation.RequestMapping(&quot;*&quot;)&#10;&#9;reactor.core.publisher.Mono&lt;?&gt; handle() {&#10;&#9;&#9;&#10;&#9;&#9;return reactor.core.publisher.Mono.empty();&#10;&#9;}&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="phuburl" value="http://phub.hq:8019/provisioning/json?cmd=get-account-json&amp;account={account}" description="Live Phub URL" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STRING" value="true" />
+    </context>
+  </template>
 </templateSet>
