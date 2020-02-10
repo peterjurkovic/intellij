@@ -1,0 +1,38 @@
+<templateSet group="Groovy">
+  <template name="nexmo-spring-all" value="// Nexmo starters&#10;implementation 'com.nexmo.spring:monitoring-spring-boot-starter:1.0.7'&#10;implementation 'com.nexmo.spring:webflux-tracing:2.0.1'&#10;implementation 'com.nexmo.spring:webflux-validation:1.0.1'&#10;implementation 'com.nexmo.spring:webclient-starter:1.0.4'&#10;implementation 'com.nexmo.spring:aws-sqs:1.0.0'&#10;implementation 'com.nexmo.spring:webflux-auth:1.0.4'&#10;&#10;// Nexmo Test libs&#10;testImplementation 'com.nexmo.spring:aws-sqs-test:1.0.1'&#10;testImplementation 'com.nexmo.spring:nexmo-spring-kafka-test:1.1.0'" description="Add imports to all Nexmo Spring starters" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GAUGE" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MARKDOWN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="Python" value="false" />
+      <option name="SCALA" value="false" />
+      <option name="SSP" value="false" />
+      <option name="XML" value="false" />
+      <option name="sbt" value="false" />
+    </context>
+  </template>
+  <template name="nexmo-artifactory" value="maven { url &quot;http://artifactory.internal/artifactory/libs-all/&quot; }" description="Nexmo internal Artifactory" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GAUGE" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MARKDOWN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="Python" value="false" />
+      <option name="SCALA" value="false" />
+      <option name="SSP" value="false" />
+      <option name="XML" value="false" />
+      <option name="sbt" value="false" />
+    </context>
+  </template>
+</templateSet>
