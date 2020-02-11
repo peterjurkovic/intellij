@@ -89,6 +89,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug 'DemoApplication'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'DemoApplication'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'E2ETest.test'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
@@ -590,7 +598,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'DemoApplication'</Description>
-          <Count>18</Count>
+          <Count>20</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'DemoApplication.main()'">
@@ -1726,7 +1734,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'DemoApplication'</Description>
-          <Count>13</Count>
+          <Count>16</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'E2E tests for /v1/inbound (1)'">
@@ -2222,7 +2230,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>299</Count>
+          <Count>300</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
