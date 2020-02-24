@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="ConfigLoader" type="Groovy" />
       <mapping ext="jenkinsfile" type="Groovy" />
+      <mapping pattern=".terraform-verison" type="PLAIN_TEXT" />
       <mapping pattern=".terraform-version" type="PLAIN_TEXT" />
       <mapping pattern="aurora-global-secondary" type="PLAIN_TEXT" />
       <mapping ext="tfvars" type="PLAIN_TEXT" />
