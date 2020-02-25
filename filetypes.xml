@@ -3,16 +3,14 @@
     <extensionMap>
       <mapping pattern="ConfigLoader" type="Groovy" />
       <mapping ext="jenkinsfile" type="Groovy" />
-      <mapping pattern=".terraform-verison" type="PLAIN_TEXT" />
-      <mapping pattern=".terraform-version" type="PLAIN_TEXT" />
       <mapping pattern="aurora-global-secondary" type="PLAIN_TEXT" />
+      <mapping pattern=".terraform-version" type="PLAIN_TEXT" />
+      <mapping pattern=".terraform-verison" type="PLAIN_TEXT" />
       <mapping ext="adoc" type="PLAIN_TEXT" />
-      <mapping ext="tfvars" type="PLAIN_TEXT" />
       <mapping ext="erb" type="PLAIN_TEXT" />
       <mapping ext="jenkins" type="PLAIN_TEXT" />
       <mapping ext="nomand" type="PLAIN_TEXT" />
       <mapping ext="factories" type="PLAIN_TEXT" />
-      <removed_mapping ext="tfvars" type="Terraform" />
       <removed_mapping ext="jenkinsfile" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
