@@ -6,6 +6,7 @@
       <mapping pattern=".terraform-verison" type="PLAIN_TEXT" />
       <mapping pattern=".terraform-version" type="PLAIN_TEXT" />
       <mapping pattern="aurora-global-secondary" type="PLAIN_TEXT" />
+      <mapping ext="adoc" type="PLAIN_TEXT" />
       <mapping ext="tfvars" type="PLAIN_TEXT" />
       <mapping ext="erb" type="PLAIN_TEXT" />
       <mapping ext="jenkins" type="PLAIN_TEXT" />
