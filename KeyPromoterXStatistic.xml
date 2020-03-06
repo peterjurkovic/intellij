@@ -62,7 +62,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
           <Description>Copy</Description>
-          <Count>347</Count>
+          <Count>348</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Value">
@@ -1246,7 +1246,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'chatapp-sandbox [bootRun]'</Description>
-          <Count>34</Count>
+          <Count>38</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'chatapp-sandbox [clean]'">
@@ -2278,7 +2278,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'chatapp-sandbox [bootRun]'</Description>
-          <Count>20</Count>
+          <Count>23</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'chatapp-sandbox [test]'">
@@ -2422,7 +2422,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>325</Count>
+          <Count>327</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
