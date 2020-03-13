@@ -262,7 +262,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>GoTo</Description>
-          <Count>1982</Count>
+          <Count>1985</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -406,7 +406,7 @@
           <IdeaActionID>RenameElement</IdeaActionID>
           <ShortCut>'Shift+F6' or 'Alt+Shift+R'</ShortCut>
           <Description>Rename...</Description>
-          <Count>223</Count>
+          <Count>224</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun">
