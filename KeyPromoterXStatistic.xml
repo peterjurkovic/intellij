@@ -286,7 +286,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>GoTo</Description>
-          <Count>2042</Count>
+          <Count>2048</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -478,7 +478,7 @@
           <IdeaActionID>Resume</IdeaActionID>
           <ShortCut>'F9'</ShortCut>
           <Description>Resume Program</Description>
-          <Count>246</Count>
+          <Count>252</Count>
         </Item>
       </Statistic>
       <Statistic Action="Revert...">
@@ -1433,6 +1433,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'shouldFailDueToApi...()'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'shouldFailDueToApi...()'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'shouldFailDueToCon...()'">
         <Item>
           <IdeaActionID>RunClass</IdeaActionID>
@@ -1510,7 +1518,7 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'test()'</Description>
-          <Count>121</Count>
+          <Count>122</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'testAWS()'">
@@ -1697,6 +1705,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'testSuccessfulAuth...()'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'testSuccessfulAuth...()'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'testUpdate()'">
         <Item>
           <IdeaActionID>RunClass</IdeaActionID>
@@ -1814,7 +1830,7 @@
           <IdeaActionID>StepInto</IdeaActionID>
           <ShortCut>'F7'</ShortCut>
           <Description>Step Into</Description>
-          <Count>153</Count>
+          <Count>155</Count>
         </Item>
       </Statistic>
       <Statistic Action="Step Out">
@@ -1830,7 +1846,7 @@
           <IdeaActionID>StepOver</IdeaActionID>
           <ShortCut>'F8'</ShortCut>
           <Description>Step Over</Description>
-          <Count>396</Count>
+          <Count>440</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop ':bootRun'">
@@ -2150,6 +2166,22 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'NexmoTracingContextTest.testPopulate'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'NexmoUserSecuredAspectTest.testSuccessfulAuthorization'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'NexmoUserSecuredAspectTest.testSuccessfulAuthorization'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'NexmoUserSecuredAspectTest.testSuccessfulAuthorization_ShouldDoCheckAlsoUsingMasterApiKey'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'NexmoUserSecuredAspectTest.testSuccessfulAuthorization_ShouldDoCheckAlsoUsingMasterApiKey'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -2534,7 +2566,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>364</Count>
+          <Count>369</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
