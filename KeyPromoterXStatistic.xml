@@ -233,6 +233,14 @@
           <Count>62</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Exclude">
+        <Item>
+          <IdeaActionID>UsageView.Exclude</IdeaActionID>
+          <ShortCut>'Delete'</ShortCut>
+          <Description>Exclude</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Expand All">
         <Item>
           <IdeaActionID>ExternalSystem.ExpandAll</IdeaActionID>
@@ -430,7 +438,7 @@
           <IdeaActionID>RenameElement</IdeaActionID>
           <ShortCut>'Shift+F6' or 'Alt+Shift+R'</ShortCut>
           <Description>Rename...</Description>
-          <Count>237</Count>
+          <Count>240</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun">
