@@ -62,7 +62,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
           <Description>Copy</Description>
-          <Count>367</Count>
+          <Count>373</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Value">
@@ -294,7 +294,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>GoTo</Description>
-          <Count>2161</Count>
+          <Count>2167</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -918,6 +918,14 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'NoopApplication.main()'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'OtpServiceTest'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'OtpServiceTest'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -1550,7 +1558,7 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'test()'</Description>
-          <Count>124</Count>
+          <Count>138</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'testAWS()'">
