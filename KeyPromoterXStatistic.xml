@@ -294,7 +294,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>GoTo</Description>
-          <Count>2241</Count>
+          <Count>2254</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -310,7 +310,7 @@
           <IdeaActionID>GotoImplementation</IdeaActionID>
           <ShortCut>'Ctrl+Alt+B'</ShortCut>
           <Description>Implementation(s)</Description>
-          <Count>1</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Insert link">
@@ -718,6 +718,14 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'DeploymentControllerTest'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'DeploymentCreationListenersIntegrationTest'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'DeploymentCreationListenersIntegrationTest'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -1614,7 +1622,7 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'testCreateCluster_...()'</Description>
-          <Count>7</Count>
+          <Count>13</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'testCreateContact_...()'">
