@@ -46,7 +46,7 @@
           <IdeaActionID>Git.CompareWithBranch</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+C'</ShortCut>
           <Description>Compare with Branch...</Description>
-          <Count>220</Count>
+          <Count>222</Count>
         </Item>
       </Statistic>
       <Statistic Action="Constant...">
@@ -62,7 +62,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
           <Description>Copy</Description>
-          <Count>401</Count>
+          <Count>402</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Value">
@@ -1990,7 +1990,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'whatsapp-manager [bootRun]'</Description>
-          <Count>15</Count>
+          <Count>18</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run Inspection by Name...">
@@ -2758,7 +2758,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'whatsapp-manager [bootRun]'</Description>
-          <Count>29</Count>
+          <Count>33</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'whatsapp-manager [jacocoTestReport]'">
