@@ -198,7 +198,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'whatsapp-manager [bootRun]'</Description>
-          <Count>7</Count>
+          <Count>8</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug...">
@@ -1990,7 +1990,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'whatsapp-manager [bootRun]'</Description>
-          <Count>11</Count>
+          <Count>15</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run Inspection by Name...">
@@ -2758,7 +2758,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'whatsapp-manager [bootRun]'</Description>
-          <Count>25</Count>
+          <Count>29</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'whatsapp-manager [jacocoTestReport]'">
@@ -2782,7 +2782,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop...</Description>
-          <Count>109</Count>
+          <Count>110</Count>
         </Item>
       </Statistic>
       <Statistic Action="Structure">
