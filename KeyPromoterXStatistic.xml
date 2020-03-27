@@ -46,7 +46,7 @@
           <IdeaActionID>Git.CompareWithBranch</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+C'</ShortCut>
           <Description>Compare with Branch...</Description>
-          <Count>223</Count>
+          <Count>224</Count>
         </Item>
       </Statistic>
       <Statistic Action="Constant...">
@@ -294,7 +294,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>GoTo</Description>
-          <Count>2324</Count>
+          <Count>2327</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
