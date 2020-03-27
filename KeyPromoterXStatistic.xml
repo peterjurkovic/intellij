@@ -46,7 +46,7 @@
           <IdeaActionID>Git.CompareWithBranch</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+C'</ShortCut>
           <Description>Compare with Branch...</Description>
-          <Count>235</Count>
+          <Count>238</Count>
         </Item>
       </Statistic>
       <Statistic Action="Constant...">
