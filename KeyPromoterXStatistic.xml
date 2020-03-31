@@ -294,7 +294,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>GoTo</Description>
-          <Count>2442</Count>
+          <Count>2443</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -502,7 +502,7 @@
           <IdeaActionID>ChangesView.Revert</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Z'</ShortCut>
           <Description>Revert...</Description>
-          <Count>77</Count>
+          <Count>78</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run">
@@ -639,6 +639,14 @@
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'ClusterControllerTest.unlinkPublicDns_shouldFailWithNotFoundIfDoesntExists'</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'ClusterDnsVerifierTest'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'ClusterDnsVerifierTest'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'ClusterWaitForCreateEventTest'">
@@ -2886,7 +2894,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'whatsapp-manager [test]'</Description>
-          <Count>16</Count>
+          <Count>17</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop...">
@@ -2926,7 +2934,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>428</Count>
+          <Count>429</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
