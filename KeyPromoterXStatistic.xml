@@ -769,6 +769,14 @@
           <Count>7</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'DeploymentsIntegrationTest'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'DeploymentsIntegrationTest'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'DevelopmentPri....main()'">
         <Item>
           <IdeaActionID>RunClass</IdeaActionID>
