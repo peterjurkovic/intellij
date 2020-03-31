@@ -230,7 +230,7 @@
           <IdeaActionID>EvaluateExpression</IdeaActionID>
           <ShortCut>'Alt+F8'</ShortCut>
           <Description>Evaluate Expression...</Description>
-          <Count>69</Count>
+          <Count>73</Count>
         </Item>
       </Statistic>
       <Statistic Action="Exclude">
@@ -1673,6 +1673,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'testBadRequest_add...()'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'testBadRequest_add...()'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'testClusterCreatio...()'">
         <Item>
           <IdeaActionID>RunClass</IdeaActionID>
@@ -2577,6 +2585,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'ProfileControllerTest.testBadRequest_addressTooLong'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'ProfileControllerTest.testBadRequest_addressTooLong'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'ProxyClient'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -2910,7 +2926,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'whatsapp-manager [test]'</Description>
-          <Count>17</Count>
+          <Count>18</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop...">
@@ -2950,7 +2966,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>431</Count>
+          <Count>432</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
