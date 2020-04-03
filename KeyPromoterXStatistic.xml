@@ -294,7 +294,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>GoTo</Description>
-          <Count>2495</Count>
+          <Count>2498</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -502,7 +502,7 @@
           <IdeaActionID>Resume</IdeaActionID>
           <ShortCut>'F9'</ShortCut>
           <Description>Resume Program</Description>
-          <Count>317</Count>
+          <Count>319</Count>
         </Item>
       </Statistic>
       <Statistic Action="Revert...">
@@ -991,6 +991,14 @@
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'OtpServiceTest'</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'PriceFinderTest'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'PriceFinderTest'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Produce.main()'">
@@ -2230,7 +2238,7 @@
           <IdeaActionID>StepOver</IdeaActionID>
           <ShortCut>'F8'</ShortCut>
           <Description>Step Over</Description>
-          <Count>502</Count>
+          <Count>504</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop ':bootRun'">
@@ -2633,6 +2641,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'PriceFinderTest.testFindPrice'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'PriceFinderTest.testFindPrice'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'ProfileControllerTest.testBadRequest_aboutTooLong'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -3022,7 +3038,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>442</Count>
+          <Count>447</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
