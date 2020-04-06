@@ -350,7 +350,7 @@
           <IdeaActionID>MoveEditorToOppositeTabGroup</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+='</ShortCut>
           <Description>Move To Opposite Group</Description>
-          <Count>5</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Move...">
@@ -446,7 +446,7 @@
           <IdeaActionID>RenameElement</IdeaActionID>
           <ShortCut>'Shift+F6' or 'Alt+Shift+R'</ShortCut>
           <Description>Rename...</Description>
-          <Count>289</Count>
+          <Count>291</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun">
