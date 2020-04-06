@@ -350,7 +350,7 @@
           <IdeaActionID>MoveEditorToOppositeTabGroup</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+='</ShortCut>
           <Description>Move To Opposite Group</Description>
-          <Count>4</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Move...">
