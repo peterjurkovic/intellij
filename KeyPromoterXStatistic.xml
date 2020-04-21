@@ -302,7 +302,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>GoTo</Description>
-          <Count>2724</Count>
+          <Count>2725</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -1703,6 +1703,14 @@
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'shouldReturnExisti...()'</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'shouldSendByDefaul...()'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'shouldSendByDefaul...()'</Description>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'shouldSendMessage()'">
