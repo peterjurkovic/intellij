@@ -62,7 +62,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
           <Description>Copy</Description>
-          <Count>430</Count>
+          <Count>432</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Path">
@@ -2182,7 +2182,7 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'testSuccessE2E_Rea...()'</Description>
-          <Count>1</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'testSuccessfulAuth...()'">
