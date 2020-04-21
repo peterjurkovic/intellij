@@ -62,7 +62,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
           <Description>Copy</Description>
-          <Count>428</Count>
+          <Count>429</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Path">
@@ -543,6 +543,14 @@
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'ApiGwTest.test'</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'App'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'App'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'Application (1)'">
@@ -1710,7 +1718,7 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'shouldSendByDefaul...()'</Description>
-          <Count>5</Count>
+          <Count>8</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'shouldSendMessage()'">
@@ -2399,6 +2407,14 @@
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'ApiKeyDeserializerTest.testApiDeserialization_shouldDeserialize'</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'App'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'App'</Description>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'Application WITH KEY'">
@@ -3198,7 +3214,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>469</Count>
+          <Count>470</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
