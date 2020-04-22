@@ -302,7 +302,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>GoTo</Description>
-          <Count>2737</Count>
+          <Count>2739</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -3334,7 +3334,7 @@
           <IdeaActionID>openAssertEqualsDiff</IdeaActionID>
           <ShortCut>'Ctrl+D'</ShortCut>
           <Description>View assertEquals Difference</Description>
-          <Count>4</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
     </option>
