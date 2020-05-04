@@ -3377,6 +3377,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Undo Deleting file outputs.tf">
+        <Item>
+          <IdeaActionID>$Undo</IdeaActionID>
+          <ShortCut>'Ctrl+Z' or 'Alt+Backspace'</ShortCut>
+          <Description>Undo Deleting file outputs.tf</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Undo Moving class com.nexmo.chatapp...">
         <Item>
           <IdeaActionID>$Undo</IdeaActionID>
