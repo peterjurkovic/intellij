@@ -3,23 +3,15 @@
     <extensionMap>
       <mapping pattern="ConfigLoader" type="Groovy" />
       <mapping ext="jenkinsfile" type="Groovy" />
-      <mapping pattern="services" type="PLAIN_TEXT" />
-      <mapping pattern="wa-numbers-secret-env" type="PLAIN_TEXT" />
-      <mapping pattern="outputs" type="PLAIN_TEXT" />
-      <mapping pattern="module_source" type="PLAIN_TEXT" />
-      <mapping pattern="aurora-global-secondary" type="PLAIN_TEXT" />
-      <mapping pattern="v1_settigns_restore_post_200" type="PLAIN_TEXT" />
-      <mapping pattern=".terraform-version" type="PLAIN_TEXT" />
       <mapping pattern=".terraform-verison" type="PLAIN_TEXT" />
-      <mapping ext="jenkins" type="PLAIN_TEXT" />
+      <mapping pattern="outputs" type="PLAIN_TEXT" />
+      <mapping pattern=".terraform-version" type="PLAIN_TEXT" />
+      <mapping pattern="aurora-global-secondary" type="PLAIN_TEXT" />
       <mapping ext="adoc" type="PLAIN_TEXT" />
-      <mapping ext="crt" type="PLAIN_TEXT" />
       <mapping ext="erb" type="PLAIN_TEXT" />
+      <mapping ext="jenkins" type="PLAIN_TEXT" />
       <mapping ext="nomand" type="PLAIN_TEXT" />
-      <mapping ext="hcl " type="PLAIN_TEXT" />
       <mapping ext="factories" type="PLAIN_TEXT" />
-      <mapping ext="config" type="PLAIN_TEXT" />
-      <mapping ext="build" type="PLAIN_TEXT" />
       <removed_mapping ext="jenkinsfile" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>

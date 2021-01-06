@@ -1,0 +1,55 @@
+<templateSet group="Java">
+  <template name="log" value="private final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(getClass());" description="SFL4J" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="paramsrunner" value="@org.junit.runner.RunWith(junitparams.JUnitParamsRunner.class)" description="@RunWith(JUnitParamsRunner.class)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="false" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="at" value="org.assertj.core.api.Assertions.assertThat($END$)" description="Assertions.assertThat()" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sysout" value="System.out.println($END$)" description="System.out.println()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="setup" value="@org.junit.Before&#10;public void setup(){&#10;    $END$&#10;}" description="Junit setup method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="mockito" value="@org.junit.runner.RunWith(org.mockito.junit.MockitoJUnitRunner.class)" description="@RunWith(MockitoJUnitRunner.class)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="demo" value="@org.springframework.web.bind.annotation.RestController&#10;static class MyController {&#10;&#10;    org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(getClass());&#10;&#10;    WebClient client;&#10;&#10;    MyController(org.springframework.web.reactive.function.client.WebClient.Builder builder) {&#10;        client = builder.build();&#10;    }&#10;&#10;    @org.springframework.web.bind.annotation.ResponseStatus(org.springframework.http.HttpStatus.CREATED)&#10;    @org.springframework.web.bind.annotation.PostMapping(&quot;/posts&quot;)&#10;    reactor.core.publisher.Mono&lt;Post&gt; handle(@javax.validation.Valid @org.springframework.web.bind.annotation.RequestBody Post post) {&#10;        return client.post()&#10;                .uri(&quot;https://jsonplaceholder.typicode.com/todos&quot;)&#10;                .bodyValue(post)&#10;                .retrieve()&#10;                .bodyToMono(Post.class)&#10;                .retry(1)&#10;                .doOnNext(p -&gt; log.info(&quot;Post created {}&quot;, p));&#10;    }&#10;}&#10;&#10;@com.fasterxml.jackson.annotation.JsonInclude(JsonInclude.Include.NON_NULL)&#10;@lombok.Data static class Post{&#10;    String id;&#10;    @javax.validation.constraints.NotEmpty String userId;&#10;    @javax.validation.constraints.NotEmpty String title;&#10;}" description="Insert demo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="phuburl" value="http://phub.hq:8019/provisioning/json?cmd=get-account-json&amp;account={account}" description="Live Phub URL" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STRING" value="true" />
+    </context>
+  </template>
+</templateSet>

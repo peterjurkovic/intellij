@@ -1,0 +1,18 @@
+<templateSet group="plain">
+  <template name="basicconfig" value="spring:&#10;  application:&#10;    name: $END$&#10;&#10;nexmo:&#10;  monitoring:&#10;    service-name: ${spring.application.name}&#10;&#10;management:&#10;  endpoints:&#10;    web:&#10;      exposure:&#10;        include: prometheus,metrics,health,stats,info,env,loggers,beans&#10;  server:&#10;    port: 8080&#10;    &#10;logging:&#10;  level:&#10;    com.nexmo: 'DEBUG'&#10;  pattern:&#10;    console: '%d{HH:mm:ss.SSS} %5p [%t] %-35.35logger{35} [%X{traceId}]: %m%n'&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GAUGE" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PUPPET_FILE" value="false" />
+      <option name="Python" value="false" />
+      <option name="SCALA" value="false" />
+      <option name="SSP" value="false" />
+      <option name="sbt" value="false" />
+    </context>
+  </template>
+</templateSet>
